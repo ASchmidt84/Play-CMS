@@ -1,0 +1,6 @@
+@(page: models.coreComponent.pageComponent.Page)(implicit req: Request[_])
+
+
+@views.html.main(page.title){
+    @Html(page.content)
+}

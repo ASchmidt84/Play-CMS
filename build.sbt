@@ -14,7 +14,8 @@ libraryDependencies ++= Seq(
   "com.mohiva" %% "play-html-compressor" % "0.3.1",
   "com.loicdescotte.coffeebean" %% "html5tags" % "1.2.1",
   "com.adrianhurt" %% "play-bootstrap3" % "0.4.2-SNAPSHOT",
-  "com.monochromeroad" %% "play-xwiki-rendering" % "1.0",
+  //"com.monochromeroad" % "play-xwiki-rendering_2.11" % "1.0",
+  //"org.xwiki.rendering" % "xwiki-rendering-macro-comment" % "4.1.3",
   "jp.t2v" %% "play2-auth"      % "0.13.2",
   cache,
   ws
@@ -26,10 +27,8 @@ libraryDependencies += "com.h2database" % "h2" % "1.4.183"
 
 libraryDependencies += "com.mchange" % "c3p0" % "0.9.5-pre10"
 
-libraryDependencies += "com.typesafe.slick" % "slick_2.11" % "2.1.0"
-
 resolvers += Resolver.url("github repo for html5tags", url("http://loicdescotte.github.io/Play2-HTML5Tags/releases/"))(Resolver.ivyStylePatterns)
 
 resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
 
-resolvers += "Monochrmeroad CloudBees Repository" at "http://repository-monochromeroad.forge.cloudbees.com/release"
+//resolvers += "Monochrmeroad CloudBees Repository" at "http://repository-monochromeroad.forge.cloudbees.com/release"
